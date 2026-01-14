@@ -17,7 +17,7 @@ def adivina_palabra():
 
         if len(letra_usuario) != 1:
             if letra_usuario == palabra_seleccionada:
-                print(f'Seleccionaste una letra correcta{letra_usuario}')
+                print(f'Seleccionaste la palabra correcta: {letra_usuario}')
                 break
             else:
                 print("la palabra no es correcta intenta de nuevo")

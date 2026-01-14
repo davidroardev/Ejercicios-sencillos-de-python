@@ -4,8 +4,8 @@ def segundo_mas_grande(array):
     if  array is None or len(array) < 2:
         return "El array esta vacio o solo tiene 1 valor"
     
-    mayor = array[0]
-    segundo_mayor = array[1]
+    mayor = 0
+    segundo_mayor = 0
     #determinar el numero mayor
     for item in array:
         if item > mayor:
